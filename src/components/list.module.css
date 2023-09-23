@@ -1,0 +1,59 @@
+.title {
+  font-family: 'Arial';
+  font-size: 1.2rem;
+  text-align: center;
+  color: #0a0a0c;
+  text-shadow: 2px 1px 3px #ffa166;
+}
+
+.list {
+  display: flex;
+  margin: 16px;
+  flex-wrap: wrap;
+}
+
+.list li {
+  border: 1px solid #f91100;
+  margin: 8px;
+  border-radius: 4px;
+  box-shadow: 1px 2px 2px #333;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  flex-direction: column;
+}
+
+.list li a {
+  cursor: pointer;
+}
+
+.list li a:hover {
+  box-shadow: 1px 2px 2px #066000;
+  border: 1px dotted #009900;
+}
+
+.pesquisa {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  margin: 25px;
+  padding: 25px;
+}
+
+.btn_pesquisa {
+  border-radius: 18px;
+  cursor: pointer;
+  width: 10rem;
+  height: 2.5rem;
+  box-shadow: 2px 3px 10px #ffa166;
+  margin-left: 2%;
+}
+
+.campo_pesquisa {
+  width: 18.5rem;
+  border-radius: 10px;
+  height: 2.5rem;
+  font-size: 1rem;
+  box-shadow: 2px 3px 10px #ffa166;
+}
